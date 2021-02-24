@@ -12,10 +12,8 @@ module "three-tier" {
   private_cidr3 = "10.0.3.0/24"
   tags = {
     Name    = "VPC"
-    Team    = "DevOps"
-    Billing = "CFO"
-    Quarter = "3"
-    AppName = "Wordpress"
+    Team    = "Fail Fast"
+   
   }
 }
 
